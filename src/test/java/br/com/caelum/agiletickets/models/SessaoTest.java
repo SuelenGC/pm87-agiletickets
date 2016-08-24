@@ -10,7 +10,7 @@ public class SessaoTest {
 		Sessao sessao = new Sessao();
         sessao.setTotalIngressos(2);
 
-        Assert.assertTrue(sessao.podeReservar(3));
+        Assert.assertTrue(sessao.podeReservar(1));
 	}
 	
 	@Test
